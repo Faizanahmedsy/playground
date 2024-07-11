@@ -94,13 +94,15 @@ export default function RevealImageList() {
       <h3 className="text-sm font-black uppercase text-muted-foreground">
         Our services
       </h3>
-      {items.map((item, index) => (
-        <RevealImageListItem
-          key={index}
-          text={item.text}
-          images={item.images}
-        />
-      ))}
+      <div className="h-[450px]">
+        {items.map((item, index) => (
+          <RevealImageListItem
+            key={index}
+            text={item.text}
+            images={item.images}
+          />
+        ))}
+      </div>
     </div>
   );
 }
