@@ -1,3 +1,4 @@
+import Eight from "@/components/animata/bento-grid/eight";
 import RevealImageList from "@/components/animata/list/reveal-image";
 import { Icons } from "@/components/icons/icons";
 import Hero from "@/components/landing/hero";
@@ -17,6 +18,9 @@ export default function Page({}: Props) {
           <RevealImageList />
         </div>
         <TechCircles />
+      </div>
+      <div className="mb-36 flex justify-center items-center">
+        <Eight />
       </div>
     </Wrapper>
   );
