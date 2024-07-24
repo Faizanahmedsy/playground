@@ -14,6 +14,10 @@ export const links = [
     title: "Lottie files animation",
     href: "/v-4/lottie",
   },
+  {
+    title: "get search params",
+    href: "/v-4/search",
+  },
 ];
 
 export default function RootLayout({
