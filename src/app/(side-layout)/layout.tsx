@@ -18,6 +18,10 @@ export const links = [
     title: "get search params",
     href: "/v-4/search",
   },
+  {
+    title: "PDF Wind",
+    href: "/v-4/pdf-wind",
+  },
 ];
 
 export default function RootLayout({
